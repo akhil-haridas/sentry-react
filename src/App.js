@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import { useEffect } from 'react';
+import { initSentry } from './initSentry';
 
 function App() {
 
   useEffect(() => {
-    
+    initSentry()
   },[])
 
   return (
