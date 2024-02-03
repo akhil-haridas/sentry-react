@@ -10,10 +10,6 @@ export const initSentry = () => {
             // https://docs.sentry.io/platforms/javascript/guides/react/configuration/integrations/react-router/
             routingInstrumentation: Sentry.reactRouterV6Instrumentation(
                 React.useEffect,
-                useLocation,
-                useNavigationType,
-                createRoutesFromChildren,
-                matchRoutes
             ),
             }),
             Sentry.replayIntegration()
