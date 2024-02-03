@@ -1,3 +1,6 @@
+import React from "react";
+import * as Sentry from "@sentry/react";
+
 export const initSentry = () => {
     Sentry.init({
         dsn: "https://examplePublicKey@o0.ingest.sentry.io/0",
