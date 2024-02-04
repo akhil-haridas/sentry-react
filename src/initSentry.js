@@ -20,7 +20,10 @@ export const initSentry = () => {
         maxBreadcrumbs: 50,
         debug: true,
         environment: "production",
-
+        initialScope: {
+            tags: { "my-tag": "my value" },
+            user: { id: 42, email: "john.doe@example.com" },
+        },
 
         // Set tracesSampleRate to 1.0 to capture 100%
         // of transactions for performance monitoring.
