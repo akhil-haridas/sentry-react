@@ -17,6 +17,10 @@ export const initSentry = () => {
                 console: false,
             }),
         ],
+        maxBreadcrumbs: 50,
+        
+        
+
 
         // Set tracesSampleRate to 1.0 to capture 100%
         // of transactions for performance monitoring.
