@@ -19,7 +19,7 @@ export const initSentry = () => {
         ],
         maxBreadcrumbs: 50,
         debug: true,
-        
+        environment: "production",
 
 
         // Set tracesSampleRate to 1.0 to capture 100%
