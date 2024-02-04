@@ -18,7 +18,7 @@ export const initSentry = () => {
             }),
         ],
         maxBreadcrumbs: 50,
-        
+        debug: true,
         
 
 
