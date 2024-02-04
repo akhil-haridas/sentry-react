@@ -24,9 +24,6 @@ export const initSentry = () => {
             tags: { "my-tag": "my value" },
             user: { id: 42, email: "john.doe@example.com" },
         },
-
-        // Set tracesSampleRate to 1.0 to capture 100%
-        // of transactions for performance monitoring.
         tracesSampleRate: 1.0,
 
         // Set `tracePropagationTargets` to control for which URLs distributed tracing should be enabled
