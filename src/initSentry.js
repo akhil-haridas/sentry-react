@@ -12,7 +12,7 @@ export const initSentry = () => {
                 React.useEffect,
             ),
             }),
-            Sentry.replayIntegration()
+            // Sentry.replayIntegration()
         ],
 
         // Set tracesSampleRate to 1.0 to capture 100%
