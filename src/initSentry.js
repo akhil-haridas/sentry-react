@@ -3,7 +3,7 @@ import * as Sentry from "@sentry/react";
 
 export const initSentry = () => {
     Sentry.init({
-        dsn: "https://examplePublicKey@o0.ingest.sentry.io/0",
+        // dsn: "https://examplePublicKey@o0.ingest.sentry.io/0",
         integrations: [
             new Sentry.BrowserTracing({
             routingInstrumentation: Sentry.reactRouterV6Instrumentation(
